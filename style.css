@@ -1,0 +1,91 @@
+.bagraund{
+    background: #F6F9FC;
+}
+.rakibvai{
+    position: relative;
+    cursor: pointer;
+}
+.fast span::after {
+    content: "";
+    left: 629px;
+    right: 0px;
+    height: 4px;
+    width: 60px;
+    background: #0882fc;
+    position: absolute;
+    bottom: -15px;
+    transition: .7s;
+}
+.fast-cards{
+    padding: 0 20px;
+    line-height: 10px;
+}
+
+.fast-cards a:hover{
+    background-color: #fafafd;
+    color: #0567ca;
+    transition: .8s;
+    background: transparent;
+   
+    
+}
+a.btn.btn-primary.text-light {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 21px;
+}
+.fast-cards {
+    margin: 40px;
+    line-height: 40px;
+
+}
+.bagraunds{
+    background: linear-gradient(rgba(72, 111, 229, 0.781),rgba(72, 111, 229, 0.781)),url(https://i.ibb.co/ctKVJM3/free-bg.jpg);
+    padding: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.text-bar a{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 21px;
+    position: relative;
+    color: #fff;
+}
+span{
+    background-color:#0435e4 ;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 30px;
+    transition: .7s;
+    background: transparent;
+
+}
+.text-bar a:hover span{
+    background-color:#3763EB ;
+    width: 100%;
+   
+}
+.sink {
+    background: #3763EB;
+    color: #fff;
+    padding: 70px 30px;
+}
+.card-body h1{
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+.card-body a{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 21px;
+}
+.baton a{
+    padding: 10px 110px;
+    border-radius: 30px;
+    font-size: 21px;
+    border: 1px solid #fff;
+}
